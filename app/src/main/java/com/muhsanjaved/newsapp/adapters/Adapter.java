@@ -20,7 +20,6 @@ import com.muhsanjaved.newsapp.models.ModelClass;
 import java.util.ArrayList;
 
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
-
     Context context;
     ArrayList<ModelClass> modelClassArrayList;
 

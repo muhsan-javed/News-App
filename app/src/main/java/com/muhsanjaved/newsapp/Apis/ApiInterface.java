@@ -8,9 +8,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-
     String BASE_URL = "https://newsapi.org/v2/";
-
 
     @GET("top-headlines")
     Call<mainModelClass> getNews(
@@ -26,6 +24,4 @@ public interface ApiInterface {
             @Query("pageSize") int pageSize,
             @Query("apiKey") String apiKey
     );
-
-    
 }
